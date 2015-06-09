@@ -1,0 +1,103 @@
+body {background: #ffffff;}
+
+/**nav style**/
+	ul{position: relative; margin: 0; list-style: none;}
+	ul li {display: inline-block; padding: 0 10px;}
+	ul li a{text-decoration: none; color: black;}
+	
+/***header style***/
+	header{width: auto;}
+	#head_nav {
+		text-align: right;
+		font-family:"Arial Black";
+		font-size:13px;
+	}
+	
+	.app {
+		height: 20px; width:20px;
+		background: url(i1_71651352.png) -1px -6px black;
+		
+	}
+	
+	.notifications{
+		height: 20px; width: 20px;
+		background: url(i1_71651352.png) -5px -40px  black;
+	}
+	
+	.photo {
+		height: 50px;
+		width:50px;
+		border-radius: 50%;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+	}
+	
+	.app, .notifications{
+		position: relative;
+		top:-15px;
+	}
+	
+	.text{
+		position: relative;
+		top:-20px;
+	}
+	
+/****-----center google logo and search box style-----***/
+	#center{
+		height:500px;
+		width:auto;
+		
+	}
+	
+/**google logo box***/
+	
+	.google-logobox{
+		position: relative;
+		text-align: center;
+	}
+	
+	
+	
+/***google logo**/
+	.google-logo{
+	height: 95px;
+    position: relative;
+    top: 155px;
+    width: 283px;
+}
+	
+	
+	
+/**input box style**/
+	#input_elements{
+		position: relative;
+		top: 165px;
+		text-align: center;
+}
+	
+	.text_box{
+		height:20px;
+		width: 600px;
+		margin: 0px;
+}
+	
+	
+/****-----footer style-------****/
+
+footer{
+	height: 45px;
+	width:auto;
+	position: relative;
+	bottom: -65px;
+	background: #f5f5f5;
+	border:1px solid #f1f1f1;
+}
+
+/**footer left nav**/
+#footer_left_nav, #footer_right_nav{
+		position:relative;
+		top:20px;
+		font-size:small;
+}
+#footer_left_nav{float: left;}
+#footer_right_nav{float: right;}
